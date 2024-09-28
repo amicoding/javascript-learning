@@ -84,11 +84,11 @@ var products = [
   
   // console.log(products[6].price)
   
-  var search=   "pendrive"  ;
+  var search=  5   ; //enter product id
   
   for (var i = 0; i < products.length; i++) {
     
-    var product=products[i].name;
+    var product=products[i].id;
     
     if (product==search) {
       console.log(products[i])
