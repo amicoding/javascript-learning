@@ -1,7 +1,6 @@
 
 
-var mobile = [
-  "itel","samsung","techno","symphony", {
+var mobile = [{
     name: "itel",
     price: "12200",
     color: "black",
@@ -20,4 +19,4 @@ var mobile = [
     techno: ["price:",15000, "color","blue",]
   }
   
-  console.log(mobile)
+  console.log(mobile[0].samsung[3])
