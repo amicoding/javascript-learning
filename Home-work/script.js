@@ -6,7 +6,7 @@ let buyApple = 15;
 
 let totalApple = appleQt + buyApple;
 
-// console.log("Sarah now has the apple : " + totalApple  );
+ console.log("Sarah now has the apple : " + totalApple  );
 // problem 1 end
 
 
@@ -57,14 +57,35 @@ let totalApple = appleQt + buyApple;
   
   console.log("Train will pass in 1 hour: "+ speedPerHour);
 
+// problem 6 end
+
+// problem 7 start
+
+  let totalMac = 6 ;
+  let tProduction = 200;
+  let ProPerMachine = tProduction / totalMac;
+  let addMachine = 2;
+  let totalMa = totalMac+ addMachine;
+  let totalP = ProPerMachine*totalMa;
+  let unsoldProduct = 3;
+  let soldProduct = totalP- unsoldProduct;
+  
+  console.log("After adding 2 machine, total Production is : "+ parseInt(totalP))
+  
+  console.log("If 3 product is unsold so sold product : " + parseInt(soldProduct));
 // problem 7 end
 
 // problem 8 start
 
+   let chocolet = 120;
+   let chPerPack = 9;
+   let totalPack = parseInt(chocolet/chPerPack);
+   let toChInPack = totalPack*9;
+   let availableCho = chocolet- toChInPack;
+  
+  console.log("Available Chocet Without packet : " + availableCho)
 
 // problem 8 end
-
-
 
 
 
