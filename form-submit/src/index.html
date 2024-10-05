@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  
+   
+   
+   
+  <form id="forms" class="bg-blue-300 justify-center items-center p-2 rounded-lg" action="">
+    
+    <h2 class="text-center text-4xl font-bold">Sign Up</h2>
+    
+    <input class="rounded-lg p-2 w-full border-green-400 mt-2 " type="text" name="" id="fName" value="" placeholder="Enter your first name " required />
+    
+    <input class="rounded-lg p-2 w-full mt-2" type="text" name="" id="lName" value="" placeholder="Enter your last name" required/>
+    <input class="rounded-lg p-2 w-full mt-2" type="email" name="" id="email" value="" placeholder="Enter your email address" required />
+    <input class="rounded-lg p-2 w-full mt-2" type="password" name="" id="pass" value="" placeholder="Enter a strong password" 
+    
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+    required 
+    />
+    
+    <select class="rounded-lg p-2 w-full mt-2" name="" id="country" required>
+    
+      <option value="" selected="" >Slect your country </option>
+      <option value="BANGLADESH">BANGLADESH </option>
+      <option value="USA">USA</option>
+      <option value="INDIA">INDIA</option>
+      
+    </select>
+    
+    <textarea class="rounded-lg p-2 w-full mt-2 h-16 " name="" id="address" rows="8" cols="40" placeholder="Enter your address"required></textarea>
+   
+   <button class="text-white rounded-lg w-full bg-green-800 p-1 text-3xl mt-2" type="submit">Submit</button> 
+  
+  </form>
+  
+  <h4 class="text-center">Already have an account <a class="text-blue-800" href="#">Sign In</a></h4>
+
+  
+
+  
+  
+  
+  <script src="/scripr.js" type="text/javascript" charset="utf-8"></script>
+  
+</body>
+</html>
